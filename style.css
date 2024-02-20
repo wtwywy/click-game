@@ -1,0 +1,43 @@
+body {
+    display: flex;
+    min-height: 100vh;
+    margin: 0;
+    flex-direction: column;
+}
+
+h1 {
+    text-align: center;
+    margin: 0;
+    font-size: 5vh;
+    padding-top: 3vh;
+}
+
+button {
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    font-size: 5vw;
+}
+
+.container {
+    margin: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#num {
+    font-size: 5vh;
+}
+
+#desc {
+    font-size: 4vh;
+}
+
+#bossImage {
+    margin: auto; /* Center the image horizontally */
+    width: 300px;
+    height: auto;
+}
