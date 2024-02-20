@@ -5,6 +5,8 @@ function doSomething() {
     // Increment the value by 1
     var newNum = currentNum - 1;
     if(newNum < 0){
+        var button = document.getElementById("click");
+        button.style.display = "none";
         return;
     }
     numElement.innerText = newNum;
@@ -31,7 +33,7 @@ function desc(number) {
         descElement.innerText = "ครึ่งทางแล้วล่ะ !";
     } else if (number >= 75) {
         descElement.innerText = "จอมมาร: โอ้ยย";
-    } else if (number >= 30) {
+    } else if (number > 0) {
         descElement.innerText = "จะหมดแล้วอีกนิดเดียว!";
     } else if (number == 0) {
         descElement.innerText = "สุดยอดมากคนเก่ง เอาให้คนข้าง ๆ ดูสิ อาจจะมีรางวัลให้";
