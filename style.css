@@ -26,14 +26,19 @@ button {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    margin-top: 10px;
+    margin-left: 30px;
+    margin-right: 30px;
 }
 
 #num {
     font-size: 5vh;
+    margin: 0px;
 }
 
 #desc {
     font-size: 4vh;
+    margin: 10px;
 }
 
 #bossImage {
