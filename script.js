@@ -3,7 +3,7 @@ function doSomething() {
     // Get the current value and convert it to a number
     var currentNum = parseInt(numElement.innerText);
     // Increment the value by 1
-    var newNum = currentNum - 10;
+    var newNum = currentNum - 1;
     if(newNum < 0){
         return;
     }
